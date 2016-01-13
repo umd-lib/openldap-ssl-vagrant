@@ -1,0 +1,11 @@
+# Define an entry to contain users:
+dn: ou=people,dc=umd,dc=edu
+objectClass: organizationalUnit
+ou: people
+
+dn: uid=foo, ou=people,dc=umd,dc=edu
+objectClass: inetOrgPerson
+sn: foo
+cn: foo
+uid: foo
+userpassword: {SHA}C+7Hteo/D9vJXQ3UfzxbwnXaijM=
